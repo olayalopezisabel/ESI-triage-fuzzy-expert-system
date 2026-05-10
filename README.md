@@ -13,7 +13,7 @@ The system replicates clinical reasoning by mapping physiological variables to u
 
 ## Technical Specifications
 * **Methodology**: Mamdani-type Fuzzy Inference System (FIS).
-* **Dataset**: *Triagegeist* (80,000 synthetic ED encounters) — Laitinen-Fredriksson Foundation.
+* **Dataset**: [Triagegeist](https://kaggle.com/competitions/triagegeist) (80,000 synthetic ED encounters).
 * **Input Variables**: 7 physiological features (Pain Score, NEWS2, SpO2, Systolic BP, GCS, Respiratory Rate, and Temperature).
 * **Rule Base**: 46 IF-THEN rules grounded in established clinical guidelines: NEWS2 (RCP 2017), WHO hypoxia definitions, Surviving Sepsis Campaign 2021, and GCS (Teasdale-Jennett 1974).
 * **Data Handling**: ESI-level stratified median imputation to address Missing Not At Random (MNAR) patterns identified during exploratory data analysis.
